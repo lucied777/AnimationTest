@@ -16,5 +16,7 @@ public class MainActivity extends AppCompatActivity {
     public void OnAnimationButton(View view){
         float y = view.getY() + 500;
         view.animate().setDuration(1000).setInterpolator(new BounceInterpolator()).y(y);
+
+        int i = 3;
     }
 }
