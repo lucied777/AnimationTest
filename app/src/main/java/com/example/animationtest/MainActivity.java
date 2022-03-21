@@ -18,5 +18,8 @@ public class MainActivity extends AppCompatActivity {
         view.animate().setDuration(1000).setInterpolator(new BounceInterpolator()).y(y);
 
         int i = 3;
+
+        int i2 = 3;
+        int i3 = 3;
     }
 }
